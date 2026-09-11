@@ -1,0 +1,19 @@
+[project]
+name = "plotting"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.11.1",
+    "numpy>=2.4.6",
+    "scikit-image>=0.26.0",
+    "scipy>=1.17.1",
+]
+
+[dependency-groups]
+dev = [
+    "black>=26.5.1",
+    "flake8>=7.3.0",
+    "isort>=9.0.1",
+]
